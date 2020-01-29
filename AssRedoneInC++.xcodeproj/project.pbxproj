@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F500335F23E0BD03002C9141 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F500335E23E0BD03002C9141 /* main.cpp */; };
+		F500336723E12A58002C9141 /* Airbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F500336523E12A58002C9141 /* Airbase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F500335B23E0BD03002C9141 /* AssRedoneInC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AssRedoneInC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F500335E23E0BD03002C9141 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F500336523E12A58002C9141 /* Airbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Airbase.cpp; sourceTree = "<group>"; };
+		F500336623E12A58002C9141 /* Airbase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Airbase.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F500335E23E0BD03002C9141 /* main.cpp */,
+				F500336523E12A58002C9141 /* Airbase.cpp */,
+				F500336623E12A58002C9141 /* Airbase.hpp */,
 			);
 			path = "AssRedoneInC++";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F500335F23E0BD03002C9141 /* main.cpp in Sources */,
+				F500336723E12A58002C9141 /* Airbase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
