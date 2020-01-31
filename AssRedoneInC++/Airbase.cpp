@@ -8,7 +8,7 @@
 
 #include "Airbase.hpp"
 #include <iostream>
-#include <regex>
+#include <cmath>
 
 class Airbase{
 private:
@@ -25,6 +25,11 @@ public:
         
     }
     
+    static double getDist(int x, int y){
+        
+        return hypot(x, y);
+        
+    }
 
     
 };
