@@ -25,9 +25,11 @@ public:
         
     }
     
-    static double getDist(int x, int y){
+    static double getDist(Airbase x, Airbase y){
         
-        return hypot(x, y);
+        int x1 = x.Xcoor, y1 = y.Ycoor, x2 = y.Xcoor, y2 = y.Ycoor;
+        
+        return hypot(x2 - x1, y2 - y1);
         
     }
 

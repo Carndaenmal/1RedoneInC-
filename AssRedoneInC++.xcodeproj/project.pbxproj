@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F500335F23E0BD03002C9141 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F500335E23E0BD03002C9141 /* main.cpp */; };
 		F500336723E12A58002C9141 /* Airbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F500336523E12A58002C9141 /* Airbase.cpp */; };
+		F500336A23EBB4E0002C9141 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F500336823EBB4E0002C9141 /* Room.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F500335E23E0BD03002C9141 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F500336523E12A58002C9141 /* Airbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Airbase.cpp; sourceTree = "<group>"; };
 		F500336623E12A58002C9141 /* Airbase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Airbase.hpp; sourceTree = "<group>"; };
+		F500336823EBB4E0002C9141 /* Room.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		F500336923EBB4E0002C9141 /* Room.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Room.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +65,9 @@
 			children = (
 				F500335E23E0BD03002C9141 /* main.cpp */,
 				F500336523E12A58002C9141 /* Airbase.cpp */,
+				F500336823EBB4E0002C9141 /* Room.cpp */,
 				F500336623E12A58002C9141 /* Airbase.hpp */,
+				F500336923EBB4E0002C9141 /* Room.hpp */,
 			);
 			path = "AssRedoneInC++";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F500336A23EBB4E0002C9141 /* Room.cpp in Sources */,
 				F500335F23E0BD03002C9141 /* main.cpp in Sources */,
 				F500336723E12A58002C9141 /* Airbase.cpp in Sources */,
 			);
